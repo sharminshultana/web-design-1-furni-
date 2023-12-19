@@ -1,0 +1,298 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: #000115;
+    overflow: hidden;
+} */
+/* .header{
+    height: 80px;
+    width: 70%;
+    background-color: darkorange;
+    border-radius: 3px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .header .logo{
+      font-size: 30px;
+      font-weight: bold;
+      color: #e9ebec;
+  } */
+/* .animation-container{
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    margin-left: 50%;
+    margin-top:35%;   
+}
+.burst{
+    position: absolute;
+}
+.burst .line{
+    position: absolute;
+    background: #fff;
+    width: 10px;
+    height: 50px;
+}
+.burst .line:nth-child(1){
+   animation: move01 1.5s linear infinite; 
+}
+@keyframes move01{
+    0%{
+        transform: translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0,-50px);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0,-100px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(2){
+   animation: move02 1.5s linear infinite; 
+}
+@keyframes move02{
+    0%{
+        transform:  rotate(45deg) translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(45deg) translate(0,-50px);
+        opacity: 1;
+    }
+    100%{
+        transform:rotate(45deg) translate(0,-100px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(3){
+    animation: move03 1.5s linear infinite; 
+ }
+ @keyframes move03{
+     0%{
+         transform:rotate(90deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform:rotate(90deg)  translate(0,-50px);
+         opacity: 1;
+     }
+     100%{
+         transform:rotate(90deg) translate(0,-100px);
+         opacity: 0;
+     }
+ }
+ .burst .line:nth-child(4){
+    animation: move04 1.5s linear infinite; 
+ }
+ @keyframes move04{
+     0%{
+         transform:rotate(135deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform:rotate(135deg)  translate(0,-50px);
+         opacity: 1;
+     }
+     100%{
+         transform:rotate(135deg) translate(0,-100px);
+         opacity: 0;
+     }
+ }
+ .burst .line:nth-child(5){
+    animation: move05 1.5s linear infinite; 
+ }
+ @keyframes move05{
+     0%{
+         transform:rotate(180deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform:rotate(180deg)  translate(0,-50px);
+         opacity: 1;
+     }
+     100%{
+         transform:rotate(180deg) translate(0,-100px);
+         opacity: 0;
+     }
+ }
+ .burst .line:nth-child(6){
+    animation: move06 1.5s linear infinite; 
+ }
+ @keyframes move06{
+     0%{
+         transform:rotate(225deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform:rotate(225deg)  translate(0,-50px);
+         opacity: 1;
+     }
+     100%{
+         transform:rotate(225deg) translate(0,-100px);
+         opacity: 0;
+     }
+ }
+ .burst .line:nth-child(7){
+    animation: move07 1.5s linear infinite; 
+ }
+ @keyframes move07{
+     0%{
+         transform:rotate(270deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform:rotate(270deg)  translate(0,-50px);
+         opacity: 1;
+     }
+     100%{
+         transform:rotate(270deg) translate(0,-100px);
+         opacity: 0;
+     }
+ }
+ .burst .line:nth-child(8){
+    animation: move08 1.5s linear infinite; 
+ }
+ @keyframes move08{
+     0%{
+         transform:rotate(315deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform:rotate(315deg)  translate(0,-50px);
+         opacity: 1;
+     }
+     100%{
+         transform:rotate(315deg) translate(0,-100px);
+         opacity: 0;
+     }
+ }
+ @media (max-width:768px) {
+    .animation-container{
+      
+       margin-left: 50%;
+       margin-top:80%;  
+    }
+ }
+ @media (max-width:992px) {
+    .animation-container{
+      
+       margin-left: 50%;
+       margin-top:80%;  
+    }
+ } */
+ /* ------contact----- */
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container form{
+    width: 670px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1)!important;
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    margin-top: 10%;
+ }
+ .container form h1{
+color: #1a1717;
+font-weight: 400;
+margin-top: 20px;
+width: 500px;
+text-align: center;
+ }
+ .container form input{
+    width:50%;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: #231f1f;
+    margin-bottom: 5px;
+    background: none;
+    border-bottom: 2px solid #191414;
+    overflow: hidden;
+ }
+ .container form input::placeholder{
+    color: black;
+ }
+   .container form #firstName,
+ .container form #lastName,
+ .container form #email,
+ .container form #mobile
+ {
+    margin-left: 20px;
+ }  
+ 
+ .container form h4{
+    color: black;
+    font-weight: 250;
+    width: 600px;
+    margin-top: 20px;
+
+ }
+ .container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #161414;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 70px;
+    max-height: 70px;
+    color: black;
+ }
+
+.container form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    width: 100px;
+    
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.container form #button:hover{
+    opacity: 0.7;
+}
+@media (max-width:768px) {
+    .container form{
+        margin-top: 15%;
+    }
+    .container form h4{
+     margin-left:20%;
+    
+     }
+    
+     .container form #button{
+        margin-right: 250px;
+     }
+}
+@media (max-width:442px){
+    .container form{
+        margin-top: 25%;
+    }
+}
